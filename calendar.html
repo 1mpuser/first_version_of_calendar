@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        #buttonsWithMonths{
+            text-align: center;
+        }
+        .buttonsWithMonths{
+            margin: 2px;
+        }
+        #MonthNYear{
+            text-align: center;
+        }
+        .cell{
+            border: solid 1px black;
+            display: inline-block;
+            width: 20px;
+            margin: 2px;
+        }
+        #cellsDiv{
+            text-align: center;
+        }
+        .nowDay{
+            background: #000;
+			color: #fff;
+        }
+
+
+    </style>
+    <title>Calendar</title>
+</head>
+<body>
+<div id="buttonsWithMonths"><button class="buttonsWithMonths">Предыдущий месяц</button><button class="buttonsWithMonths">Следующий месяц</button></div>
+<div id="MonthNYear"></div>
+<div id="cellsDiv">
+    <div class="cell">1</div><div class="cell">2</div><div class="cell">3</div>
+</div>
+
+<script src="code.js"></script>
+</body>
+</html>
